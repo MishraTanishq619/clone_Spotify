@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+body {
+	background-color: black;
+	display: flex;
+}
+
+#side {
+	height: 100%;
+	width: 23%;
+	margin: 10px;
+}
+
+#sideA {
+	background-color: #121212;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.sideaitems {
+	display: flex;
+}
+
+.sideaitems:hover {
+	background-color: #242424;
+}
+
+i {
+	margin: 10px;
+	font-size: large;
+}
+
+p {
+	margin: 10px;
+}
+
+#sideB {
+	margin-top: 10px;
+	background-color: #121212;
+	border-radius: 10px;
+	height: calc(100% - 130px);
+}
+
+#sideBhead {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	/* gap: 40%; */
+}
+
+#left {
+	display: flex;
+}
+
+#sideBcontent {
+	display: flex;
+	flex-direction: column;
+	gap: 180px;
+	/* justify-content: flex-start; */
+}
+
+.Bcontent {
+	background-color: #242424;
+	margin: 8px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 10px;
+	margin-block: 20px;
+}
+
+.Bcontent button {
+	width: 40%;
+	margin-bottom: 5px;
+	font-size: 13px;
+	border-radius: 20px;
+	border: none;
+	padding-block: 5px;
+}
+
+.Bcontent button:hover {
+	border: 3px solid white;
+}
+
+#sideBfooter {
+	color: rgb(139, 138, 138);
+	margin-left: 16px;
+}
+
+#Bfone {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: small;
+}
+#sideBfooter button {
+	margin-block: 30px;
+	margin-left: 7px;
+	color: white;
+	background-color: #121212;
+	border: 0.1px solid white;
+	padding-inline: 20px;
+	border-radius: 25px;
+}
+
+#sideBfooter button:hover {
+	border: 2px solid white;
+}
+
+/* main  */
+
+#main {
+	margin-block: 10px;
+	background-color: #121212;
+	/* background- */
+	background-image: linear-gradient(#202020, #101010);
+	border-radius: 20px;
+	height: 99%;
+	width: 74%;
+}
+
+#head {
+	background-color: #101010;
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-inline: 20px;
+	font-size: xx-large;
+}
+
+#nav button {
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	width: 33px;
+	height: 33px;
+	border-radius: 33px;
+	font-size: 24px;
+}
+
+#signlogin button {
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+	/* width: 33px; */
+	height: 45px;
+	padding-inline: 15px;
+	border-radius: 33px;
+	font-size: 20px;
+}
+
+#signlogin #login {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	/* width: 33px; */
+	height: 45px;
+	padding-inline: 30px;
+	border-radius: 33px;
+	font-size: 16px;
+}
